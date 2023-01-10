@@ -1,9 +1,10 @@
-import React, { createContext } from 'react'
+import React, { createContext, useState } from 'react'
 
 export const ShopContext = createContext(null)
 
-export const ShopContextProvider = () => {
+export const ShopContextProvider = (props) => {
+  const [cartItems, setCartItems] = useState()
   return (
-    <ShopContext.Provider></ShopContext.Provider>
+    <ShopContext.Provider>{props.children}</ShopContext.Provider>
   )
 }
