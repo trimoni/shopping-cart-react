@@ -13,12 +13,18 @@ export const PRODUCTS = [
   {
     id: 1,
     productName: "Dark Energy",
-    price: 999.0,
+    price: 10.0,
     productImage: darkness,
   },
   {
     id: 2,
     productName: "Normal Energy",
+    price: 15.0,
+    productImage: double,
+  },
+  {
+    id: 3,
+    productName: "iPhone",
     price: 999.0,
     productImage: darkness,
   }
