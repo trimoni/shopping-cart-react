@@ -1,4 +1,5 @@
 import React from 'react'
+import { PRODUCTS } from '../../products'
 
 export const Shop = () => {
   return (
