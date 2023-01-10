@@ -48,7 +48,13 @@ export const PRODUCTS = [
   },
   {
     id: 7,
-    productName: "iPhone",
+    productName: "Electric Energy",
+    price: 22.0,
+    productImage: lightning,
+  },
+  {
+    id: 8,
+    productName: "",
     price: 999.0,
     productImage: darkness,
   }
