@@ -54,8 +54,20 @@ export const PRODUCTS = [
   },
   {
     id: 8,
-    productName: "",
-    price: 999.0,
-    productImage: darkness,
+    productName: "Metal Energy",
+    price: 30.0,
+    productImage: metal,
+  },
+  {
+    id: 9,
+    productName: "Psychic Energy",
+    price: 18.0,
+    productImage: psychic,
+  },
+  {
+    id: 10,
+    productName: "Water Energy",
+    price: 5.0,
+    productImage: water,
   }
 ]
