@@ -1,8 +1,17 @@
 import React from 'react'
 
-export const CartItem = () => {
+export const CartItem = (props)  => {
+  const {id, productName, price, productImage} = props.data
   return (
-    <div className='cartItem'>cart-item</div>  
+    
+    <div className='cartItem'>cart-item
+    
+    <img src={productImage} alt="" />
+    <div className='description'>
+      <p> <b> {productName}</b></p>
+      <p> ${price}</p>
+    </div>
+    </div>  
   )
 }
 
