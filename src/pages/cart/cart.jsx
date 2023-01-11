@@ -24,11 +24,15 @@ export const Cart = () => {
         })}
       </div>
 
+  {totalAmount > 0 ? (
       <div className='checkout'>
         <p> SubTotal: ${totalAmount}</p>
         <button onClick={() => navigate('/')}> Continue Shopping</button>
         <button> Checkout </button>
       </div>
+  ) : (
+    <h1> Your Cart is Empty</h1>
+  )}
     </div>
   )
 }
