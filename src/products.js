@@ -1,73 +1,87 @@
-import darkness from './assets/darkness.jpeg'
-import double from './assets/double.jpeg'
-import fairy from './assets/fairy.jpeg'
-import fighting from './assets/fighting.jpeg'
-import fire from './assets/fire.jpeg'
-import grass from './assets/grass.jpeg'
-import lightning from './assets/lightning.jpeg'
-import metal from './assets/metal.jpeg'
-import psychic from './assets/psychic.jpeg'
-import water from './assets/water.jpeg'
+import Black from './assets/Black.jpeg'
+import Blue from './assets/Blue.jpg'
+import Green from './assets/Green.jpeg'
+import Navy from './assets/Navy.jpeg'
+import Orange from './assets/Orange.jpeg'
+import Pink from './assets/Pink.jpg'
+import Red from './assets/Red.jpg'
+import Tan from './assets/Tan.jpeg'
+import White from './assets/White.webp'
+import Yellow from './assets/Yellow.jpeg'
+import Purple from './assets/Purple.jpeg'
+import Brown from './assets/Brown.jpg'
 
 export const PRODUCTS = [
   {
     id: 1,
-    productName: "Dark Energy",
-    price: 10.0,
-    productImage: darkness,
+    productName: "Black Hat",
+    price: 49.99,
+    productImage: Black,
   },
   {
     id: 2,
-    productName: "Normal Energy",
-    price: 15.0,
-    productImage: double,
+    productName: "Blue Hat",
+    price: 39.99,
+    productImage: Blue,
   },
   {
     id: 3,
-    productName: "Fairy Energy",
-    price: 25.0,
-    productImage: fairy,
+    productName: "Green Hat",
+    price: 39.99,
+    productImage: Green,
   },
   {
     id: 4,
-    productName: "Fighting Energy",
-    price: 12.0,
-    productImage: fighting,
+    productName: "Navy Hat",
+    price: 49.99,
+    productImage: Navy,
   },
   {
     id: 5,
-    productName: "Fire Energy",
-    price: 20.0,
-    productImage: fire,
+    productName: "Orange Hat",
+    price: 29.99,
+    productImage: Orange,
   },
   {
     id: 6,
-    productName: "Grass Energy",
-    price: 8.0,
-    productImage: grass,
+    productName: "Pink Hat",
+    price: 49.99,
+    productImage: Pink,
   },
   {
     id: 7,
-    productName: "Electric Energy",
-    price: 22.0,
-    productImage: lightning,
+    productName: "Red Hat",
+    price: 49.99,
+    productImage: Red,
   },
   {
     id: 8,
-    productName: "Metal Energy",
-    price: 30.0,
-    productImage: metal,
+    productName: "Tan Hat",
+    price: 49.99,
+    productImage: Tan,
   },
   {
     id: 9,
-    productName: "Psychic Energy",
-    price: 18.0,
-    productImage: psychic,
+    productName: "White Hat",
+    price: 49.99,
+    productImage: White,
   },
   {
     id: 10,
-    productName: "Water Energy",
-    price: 5.0,
-    productImage: water,
+    productName: "Yellow Hat",
+    price: 29.99,
+    productImage: Yellow,
+  },
+  {
+    id: 11,
+    productName: "Purple Hat",
+    price: 29.99,
+    productImage: Purple,
+  },
+  {
+    id: 12,
+    productName: "Brown Hat",
+    price: 39.99,
+    productImage: Brown,
   }
 ]
